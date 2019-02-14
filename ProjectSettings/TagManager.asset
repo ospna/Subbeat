@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Colony
-  - 
+  - Material
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Settings
+    uniqueID: 3012306457
     locked: 0
