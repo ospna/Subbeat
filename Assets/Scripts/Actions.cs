@@ -5,24 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class Actions : MonoBehaviour
 {
-    public void Game()
+    public void GameScene()
     {
-        SceneManager.LoadScene("Subbeat");
+        SceneManager.LoadScene("GameScene");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    /*
     public void Settings()
     {
         SceneManager.LoadScene("Settings");
     }
 
-    public void Upgrade()
+    public void UpgradeMenu()
     {
-        //SceneManager.LoadScene("Upgrade");
+        SceneManager.LoadScene("UpgradeMenu");
     }
 
     public void Music()
     {
         SceneManager.LoadScene("Music");
     }
+    */
 
 }

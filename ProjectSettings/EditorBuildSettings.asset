@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Subbeat.unity
+    path: Assets/Scenes/Main Menu.unity
+    guid: 40c13eaa6df8f5542b90e3da5da35144
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: d73a4deef657eb643b9f7d86495f830e
+  - enabled: 0
+    path: Assets/Scenes/extra scenes/Subbeat.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
+  - enabled: 0
+    path: Assets/Scenes/extra scenes/Settings.unity
     guid: 700640bfb303a8742b4e623d111b3a39
-  - enabled: 1
-    path: Assets/Scenes/Music.unity
+  - enabled: 0
+    path: Assets/Scenes/extra scenes/UpgradeMenu.unity
+    guid: 0f189e570e2bec04caffe356c0e08646
+  - enabled: 0
+    path: Assets/Scenes/extra scenes/Music.unity
     guid: 67578726ae742784a9341127eae189a0
   m_configObjects: {}
