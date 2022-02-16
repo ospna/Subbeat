@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Actions : MonoBehaviour
 {
+    public Image black;
+    public Animator anim;
+
     public void GameScene()
     {
         SceneManager.LoadScene("GameScene");
+        anim.enabled = true;
     }
 
     public void MainMenu()

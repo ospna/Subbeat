@@ -643,12 +643,13 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 79b1cbfe-7b8a-476b-a81e-7201a01d49e2
+  cloudProjectId: 6458f1a3-58eb-4ce9-8e3e-fa7f9a9e2c44
   projectName: Subbeat
-  organizationId: gosp
+  organizationId: g00260031
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
